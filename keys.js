@@ -1,2 +1,2 @@
 let constant = "javascript"
-print(constant)
+console.log(constant)
