@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="color.css">
+<title>js learning</title>
+<script type="text/javascript">
+	function funcClick() {
+		var x = document.getElementById("mypara");
+		var array = [1,2,3,4,5,6,7];
+		var i;
+        var text = ""
+        for(i = 0; i < array.length; i++){
+        	text += array[i] + "<br>";
+        }
+        x.innerHTML = text;
+    }
+</script>
+</head>
+<body>
+<p id="mypara">This is a demo paragraph</p>
+<button type="button" onclick="funcClick()">Click Me!!!</button>
+</body>
+</html>
