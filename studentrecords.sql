@@ -1,12 +1,7 @@
 create database studentdata;
 CREATE TABLE `practice1` (
   `id` int(11) DEFAULT NULL,
-  studentname	varchar(50)		Yes	NULL				
-	3	physics	int(3)			Yes	NULL		
-	4	chemistry	int(3)			Yes	NULL			
-	5	maths	int(3)			Yes	NULL			
-	6	total	int(3)	
-);
+  studentname	varchar(50), physics int(3), chemistry int(3),maths int(3),total int(3));
 INSERT INTO `practice1` (`id`, `subjectname`, `subjectmarks`) VALUES
 (1,Harsha,58,57,60,175),
 (2,sirisha,69,78,87,234),
